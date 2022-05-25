@@ -1,0 +1,25 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+#root {
+  margin: 25px;
+}
+#Editor, #preview {
+  padding: 15px;
+  height: 83vh;
+  background-color: rgba(196, 221, 255, 0.6);
+}
+.top-bar {
+  background-color: rgb(127, 181, 255);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+#editor {
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: "fira code";
+  background: transparent;
+}
